@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="0" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-11T17:01:43 GMT" name="Default suite" finished-at="2022-11-11T17:02:15 GMT" duration-ms="32003">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bbc.sounds.main.Runner@6e0f5f7f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-11-11T17:01:43 GMT" name="Default test" finished-at="2022-11-11T17:02:15 GMT" duration-ms="32003">
+      <class name="com.bbc.sounds.main.Runner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.bbc.sounds.main.Runner@6e0f5f7f]" started-at="2022-11-11T17:01:43 GMT" name="setUpClass" finished-at="2022-11-11T17:01:44 GMT" duration-ms="337" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1debc91c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bbc.sounds.main.Runner@6e0f5f7f]" started-at="2022-11-11T17:01:44 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-11T17:01:55 GMT" duration-ms="10926" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Radio ‘1’ and Radio ‘2’ logos are displayed in the Listen Live"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["I WANT to navigate to the Sounds page So THAT I can see and access all logos and content in one place"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@class='sc-c-sounds-nav__brand-svgi']' (tried for 2 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@class='sc-c-sounds-nav__brand-svgi']' (tried for 2 second(s) with 500 milliseconds interval)
+at com.bbc.sounds.stepdefinitions.HomeSteps.that_i_am_on_the_bbc_sounds_homepage(HomeSteps.java:29)
+at ✽.that I am on the BBC Sounds Homepage(file:///C:/Projects/JavaSeleniumCucumberAutomationProject/src/main/resources/features/SoundsHomePage.feature:4)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bbc.sounds.main.Runner@6e0f5f7f]" started-at="2022-11-11T17:01:55 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-11T17:02:06 GMT" duration-ms="11296" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify network station logos are displayed on the Stations page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["I WANT to navigate to the Sounds page So THAT I can see and access all logos and content in one place"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@class='sc-c-sounds-nav__brand-svgi']' (tried for 2 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@class='sc-c-sounds-nav__brand-svgi']' (tried for 2 second(s) with 500 milliseconds interval)
+at com.bbc.sounds.stepdefinitions.HomeSteps.that_i_am_on_the_bbc_sounds_homepage(HomeSteps.java:29)
+at ✽.that I am on the BBC Sounds Homepage(file:///C:/Projects/JavaSeleniumCucumberAutomationProject/src/main/resources/features/SoundsHomePage.feature:4)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bbc.sounds.main.Runner@6e0f5f7f]" started-at="2022-11-11T17:02:06 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-11T17:02:15 GMT" duration-ms="9361" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Selecting the Hip Hop category from the Categories module on the Sounds Homepage"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["I WANT to navigate to the Sounds page So THAT I can see and access all logos and content in one place"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@class='sc-c-sounds-nav__brand-svgi']' (tried for 2 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@class='sc-c-sounds-nav__brand-svgi']' (tried for 2 second(s) with 500 milliseconds interval)
+at com.bbc.sounds.stepdefinitions.HomeSteps.that_i_am_on_the_bbc_sounds_homepage(HomeSteps.java:29)
+at ✽.that I am on the BBC Sounds Homepage(file:///C:/Projects/JavaSeleniumCucumberAutomationProject/src/main/resources/features/SoundsHomePage.feature:4)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.bbc.sounds.main.Runner@6e0f5f7f]" started-at="2022-11-11T17:02:15 GMT" name="tearDownClass" finished-at="2022-11-11T17:02:15 GMT" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.bbc.sounds.main.Runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
